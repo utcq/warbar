@@ -1,0 +1,10 @@
+[package]
+name = "warbar"
+version = "0.1.0"
+edition = "2021"
+
+[repository]
+name = "crates.io"
+
+[dependencies]
+wlroots = { version = "*", features = ["xwayland"] }
